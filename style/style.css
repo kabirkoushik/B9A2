@@ -20,7 +20,6 @@
 
 .hero {
     color: #131318;
-
     font-family: Mulish;
     font-size: 2rem;
     font-style: normal;
@@ -50,14 +49,10 @@
 
 .banner_img {
 
-    
-
-  
     width: 1170px;
     height: 500px;
     border-radius: 16px;
-    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png),rgb(39, 28, 28) 60%;
-    
+    background: url(../Images/Group\ 13\ \(1\)\ \(1\).png), rgb(39, 28, 28) 60%;
     margin-left: 90px;
     display: flex;
 }
@@ -88,8 +83,6 @@
 }
 
 /* banner button part */
-.button {}
-
 
 input[type=text],
 input[type=time],
@@ -97,10 +90,8 @@ input[type=button] {
 
     width: 174px;
     height: 52px;
-
     border-radius: 8px;
     background: #FFF;
-
     color: rgba(19, 19, 24, 0.50);
     text-align: center;
     font-family: Mulish;
@@ -117,7 +108,6 @@ input[type=button] {
     display: flex;
     margin: 50px 50px 0 90px;
 
-
 }
 
 .tour_part {
@@ -131,7 +121,6 @@ input[type=button] {
 
 
     color: #FFF;
-
     border-radius: 8px;
     background: #FF5400;
 
@@ -148,13 +137,12 @@ input[type=button] {
 }
 
 /* descripe_text */
+
+
 .descripe {
     margin-left: 400px;
     margin-top: 60px;
-
-
     color: #131318;
-
     font-family: Mulish;
     font-size: 30px;
     font-style: normal;
@@ -184,8 +172,8 @@ input[type=button] {
 }
 
 .img_text1 {
-    background-image: url(../Images/Rectangle\ 5.png);
 
+    background-image: url(../Images/Rectangle\ 5.png);
     width: 573px;
     height: 300px;
     flex-shrink: 0;
@@ -227,6 +215,7 @@ input[type=button] {
 }
 
 .img_text4 {
+
     width: 474px;
     height: 286px;
     flex-shrink: 0;
@@ -235,6 +224,7 @@ input[type=button] {
 }
 
 .img_text5 {
+
     width: 274px;
     height: 286px;
     flex-shrink: 0;
@@ -248,7 +238,6 @@ input[type=button] {
     margin-left: 90px;
     display: flex;
     gap: 5px;
-
 
 }
 
@@ -304,13 +293,10 @@ input[type=button] {
     width: 573px;
     height: 284px;
     flex-shrink: 0;
-
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-
     margin-left: 90px;
-
     padding: 2em 1em;
 
 }
@@ -322,7 +308,6 @@ input[type=button] {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-
     padding: 2em 1em;
     margin-left: 20px;
 }
@@ -332,11 +317,9 @@ input[type=button] {
     width: 573px;
     height: 284px;
     flex-shrink: 0;
-
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-
     padding: 2em 1em;
     margin: 10px 420px;
 
@@ -353,7 +336,6 @@ input[type=button] {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-
     margin-top: 50px;
 }
 
@@ -366,7 +348,7 @@ input[type=button] {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    /* 162.5% */
+
 
 }
 
@@ -381,7 +363,6 @@ input[type=button] {
     border-radius: 16px;
     background: url(../Images/Group\ 39.png), lightgray 50%;
     margin-left: 90px;
-
     display: flex;
 }
 
@@ -394,23 +375,65 @@ input[type=button] {
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-
     margin-left: 530px;
     margin-top: 100px;
 
 
 
 }
-.dis_box1{
 
-color: #131318;
-font-family: Mulish;
-font-size: 15px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+.dis_box2 {
+
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px;
+
+}
+
+.dis_box1 {
+
+    color: #131318;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 20px;
 
 
+}
+
+.dis_price1 {
+
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 20px;
+
+}
+
+.dis_book1 input[type=button] {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 150px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    margin: 20px;
 }
 
 
@@ -419,7 +442,7 @@ line-height: normal;
 
 
 
-.discount_image2 {
+.discount_image3 {
 
     width: 1170px;
     height: 500px;
@@ -427,64 +450,126 @@ line-height: normal;
     border-radius: 16px;
     background: url(../Images/Group\ 40.png), lightgray 50%;
     margin-left: 90px;
+    display: flex;
+}
+
+.dis_textbox3 {
+
+    width: 559px;
+    height: 359px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin-left: 530px;
+    margin-top: 100px;
+}
+
+.button2 input[type=button] {
+
+    width: 210px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-left: 550px;
+}
+
+/* perfer */
+
+
+.perfect {
 
     display: flex;
 }
 
-.button2 input[type=button]{
+.per_head {
 
 
-    width: 210px;
-height: 52px;
-flex-shrink: 0;
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    margin-left: 90px;
+    margin-top: 50px;
+
+}
+
+
+.per_button input[type=button] {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
     color: #FFF;
-
     border-radius: 8px;
     background: #FF5400;
 
-    margin-left: 550px;
+
+}
+
+.per_img {
+
+
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(../Images/Group\ 40089.png), linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    display: flex;
+}
+
+.per_tex {
+
+    width: 276px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: auto;
 }
 
 
 /* news Letter*/
 
 
-.newletter_part{
+.newletter_part {
 
     background: #FFF;
     width: 410px;
-height: 324px;
-flex-shrink: 0;
-display: flex;
-margin-left: 90px;
-margin-top: 30px;
+    height: 324px;
+    flex-shrink: 0;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 30px;
+
 }
 
-.news_text{
+.news_text {
 
     color: #131318;
-font-family: Mulish;
-font-size: 24px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.news_text2{
+.news_text2 {
 
     width: 393px;
     color: #5A5A5D;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; 
-border-bottom:  wheat solid 2px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-bottom: wheat solid 2px;
 }
 
-.inputer input[type=text]
-
-{
+.inputer input[type=text] {
     width: 393px;
     height: 52px;
     flex-shrink: 0;
@@ -493,7 +578,7 @@ border-bottom:  wheat solid 2px;
 
 }
 
-.inputer2 input[type=text]{
+.inputer2 input[type=text] {
     width: 393px;
     height: 52px;
     flex-shrink: 0;
@@ -502,34 +587,29 @@ border-bottom:  wheat solid 2px;
 
 }
 
-.inputer3 input[type=button]{
+.inputer3 input[type=button] {
 
     width: 393px;
     height: 52px;
     flex-shrink: 0;
-
-
     color: #FFF;
-
     border-radius: 8px;
     background: #FF5400;
 
-  
+
 }
 
-.news_image{
+.news_image {
 
     width: 672px;
-height: 422px;
-flex-shrink: 0;
-
+    height: 422px;
+    flex-shrink: 0;
     border-radius: 16px;
-background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50% ;
-
-margin-left: 100px;
+    background: url(../Images/Rectangle\ 8\ \(1\).png), lightgray 50%;
+    margin-left: 100px;
 }
 
-.off{
+.off {
     width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
@@ -538,37 +618,49 @@ margin-left: 100px;
     text-align: center;
     color: #FFF;
     border-radius: 16px;
-background: #FF5400;
-
-margin-top: 230px;
-margin-left: 320px;
-margin-bottom: 0px;
+    background: #FF5400;
+    margin-top: 230px;
+    margin-left: 320px;
+    margin-bottom: 0px;
 }
 
 
-.footer{
+.footer {
 
-    
+
     width: 1440px;
     height: 502px;
-    
     background: rgba(19, 19, 24, 0.05);
     display: flex;
-margin-top: 150px;
-   
+    margin-top: 130px;
+
 }
 
-.footer_tittle{
+.footer_tittle {
 
     display: inline;
     margin-left: 450px;
-    margin-top: 200px;
+    margin-top: 100px;
     border-bottom: rgba(19, 19, 24, 0.10) solid 2px;
-    
+    margin-bottom: 80px;
 
 }
 
-.footer_text{
+.footer_text {
 
     margin-left: 00px;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    * {
+        padding: 5px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
 }
